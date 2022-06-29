@@ -1,0 +1,111 @@
+/* navigation  */
+#navmain {
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    position: relative;
+    top: -61px;
+    left: 14px;
+}
+#navbar::before {
+    height: 116px;
+    width: 462px;
+
+}
+
+
+
+
+
+
+
+
+/* home */
+#home::before {
+    width: 462px;
+    top: 119px;
+    height: 615px;
+}
+#hometext{
+    text-align: center;
+    text-align: center;
+    margin-top: -60px;
+}
+#hometext p{
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+/* services */
+.secondh{
+    display: block;
+    margin: auto auto ;
+    padding-top: 61px;
+    padding-left: 4px;
+    
+}
+#boxes{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box{
+    width: 271px;
+    margin-top: 69px;
+    margin-left: 34px;
+}
+
+
+
+
+
+
+
+/* clients */
+#clientsimg{
+    flex-wrap: wrap;
+}
+#clientsection::before{
+    background-image: url(../bg/cbg.jpg);
+    height: 740px;
+}
+#cimg3, #cimg4{
+    margin-top: 1px;
+}
+#cimg5, #cimg6{
+    margin-top: 1px;
+}
+
+
+
+
+
+
+
+/* contact */
+#contactsection::before{
+    height: 616.5px;
+}
+#contact-form form{
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
